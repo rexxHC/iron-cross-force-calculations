@@ -254,7 +254,11 @@ int main() {
 
   float deltoid_total = sqrt(pow(joint_horizontal, 2) + pow(joint_vertical, 2));
 
-  printf("Deltoid Reaction Force: %f N\n", deltoid_total);
+  printf("\n\nRing Force: %.2f N\n", ring_force);
+  printf("Total External Torque: %.2f N\n", total_external);
+  printf("Horizontal Compression: %.2f N\n", joint_horizontal);
+  printf("Vertical Shear: %.2f N\n", joint_vertical);
+  printf("Deltoid Reaction Force: %.2f N\n", deltoid_total);
 
   free(Athlete);
   free(athlete_arm);
