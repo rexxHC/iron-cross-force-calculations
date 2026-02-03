@@ -14,7 +14,12 @@ L_pec = Anatomical insertion distance of the pectoralis major</br> L_lat = Anato
 A_pec = Insertion angle of the pectoralis major when the arms are parallel to the ground</br> A_lat = Insertion angle of the latissimus dorsi when the arms are parallel to the ground</br> PCSA_ratio = Physiological cross-sectional area ratio (area of the latissimus dorsi / area of the pectoralis major)</br></br> <b>These three variables are the genetic identifiers of ring specialists, and favorable genetics here acutely reduce the difficulty of the iron cross.</b></br>
 
 ## Physiological Derivations
-<i>All calculations took gender into account when calculating values.</i></br></br> The M series variables relating to the mass of the arm segments were calculated using the Zatsiorsky-Seluyanov method with predetermined B<sub>0</sub>, B<sub>1</sub>, and B<sub>2</sub> coefficients.</br> The L series variables relating to the length of the arm segments were calculated using standard anthropometric estimates.</br> The A series variables were declared explicitly without any derivations; the values taken were the average angles recorded in different datasets.</br> The PCSA_variable was also declared explicitly; the value taken was an average from standard anatomical datasets of healthy males.</br> <b>N.B.</b> The PCSA ratio determines whether the athlete is chest dominant or back dominant; usually, back dominant athletes have an easier time performing the iron cross.</br>
+<i>All calculations took gender into account when calculating values.</i></br></br>
+The <b>M</b> series variables relating to the mass of the arm segments were calculated using the Zatsiorsky-Seluyanov method with predetermined B<sub>0</sub>, B<sub>1</sub>, and B<sub>2</sub> coefficients.</br>
+The <b>L</b> series variables relating to the length of the arm segments were calculated using standard anthropometric estimates.</br>
+The <b>A</b> series variables were declared explicitly without any derivations; the values taken were the average angles recorded in Stanford datasets.</br>
+The PCSA_variable was also declared explicitly; the value taken was an average from standard anatomical datasets of healthy males.</br>
+<b>N.B.</b> The PCSA ratio determines whether the athlete is chest dominant or back dominant; usually, back dominant athletes have an easier time performing the iron cross.</br>
 
 ## Miscellaneous Variables
 arm_derivation = The angle of the arms relative to the horizontal; here we assume the athlete is holding a perfect cross, therefore this angle is always 0.</br> g = 9.81 m/s²
