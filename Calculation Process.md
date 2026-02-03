@@ -22,7 +22,7 @@ L_lat = anatomical insertion of the latissimus dorsi</br>
 ## major differentiating variables
 A_pec = insertion angle of the pectoralis major when the arms are parallel to the ground</br>
 A_lat = insertion angle of the latissimus dorsi when the arms are parallel to the ground</br>
-PCSA_ratio = physiological cross-sectional area ratio (area of the latissimus dorsi / area of the pectoralis major)</br>
+PCSA_ratio = physiological cross-sectional area ratio (area of the latissimus dorsi / area of the pectoralis major)</br></br>
 <b>these three variables are the genetic identifiers of ring specialists and favorable genetics here acutely reduce the difficulty of the iron cross</b></br>
 
 ## physiological derivations
