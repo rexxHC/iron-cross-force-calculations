@@ -32,6 +32,6 @@ ring_torque = (mg / 2) * L<sub>arm</sub> * cos(arm_derivation_angle)</br> arm_we
 F<sub>lat</sub> = PCSA_ratio * F<sub>pec</sub></br> torque<sub>pec</sub> = F<sub>pec</sub> * L<sub>pec</sub> * sin(A_pec)</br> torque<sub>lat</sub> = F<sub>lat</sub> * L<sub>lat</sub> * sin(A_lat)</br> total_external = torque<sub>pec</sub> + torque<sub>lat</sub></br>
 
 ## Vector Forces
-joint_horizontal = Horizontal compression (muscles pull inward and socket pushes back outward) = F<sub>hor</sub> = F<sub>pec</sub>cos(A_pec) + F<sub>lat</sub>cos(A_lat)</br> joint_vertical = Vertical shear = F<sub>ver</sub> = F<sub>rings</sub> - arm_weight - F<sub>pec</sub>cos(A_pec) - F<sub>lat</sub>cos(A_lat)</br> Since these vectors are perpendicular, we can use the Pythagorean theorem to find out the magnitude of the total force vector.</br>
+joint_horizontal = Horizontal compression (muscles pull inward and socket pushes back outward) = F<sub>hor</sub> = F<sub>pec</sub>cos(A_pec) + F<sub>lat</sub>cos(A_lat)</br> joint_vertical = Vertical shear = F<sub>ver</sub> = F<sub>rings</sub> - arm_weight - F<sub>pec</sub>cos(A_pec) - F<sub>lat</sub>cos(A_lat)</br></br> Since these vectors are perpendicular, we can use the Pythagorean theorem to find out the magnitude of the total force vector.</br></br>
 
-<math xmlns="http://www.w3.org/1998/Math/MathML"> <mrow> <msub> <mi>F</mi> <mtext>total</mtext> </msub> <mo>=</mo> <msqrt> <msubsup> <mi>F</mi> <mtext>hor</mtext> <mn>2</mn> </msubsup> <mo>+</mo> <msubsup> <mi>F</mi> <mtext>ver</mtext> <mn>2</mn> </msubsup> </msqrt> </mrow> </math>
+F<sub>total</sub> = square_root(F<sub>hor</sub><sup>2</sup> + F<sub>ver</sub><sup>2</sup>)</br>
