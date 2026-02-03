@@ -1,3 +1,4 @@
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 # Variables Used
 ## user defined variables
 gender = athlete sex</br>
@@ -62,8 +63,10 @@ joint_horizontal = horizontal compression (muscles pull inward and socket pushes
 joint_vertical = vertical shear = F<sub>ver</sub> = F<sub>rings</sub> - arm_weight - F<sub>pec</sub>cos(A_pec) - F<sub>lat</sub>cos(A_lat)</br>
 since these vectors are perpendicular, we can use the pythagorean theorem to find out the magnitude of the total force vector
 
-F<sub>total</sub> = square_root(F<sub>hor</sub><sup>2</sup> + F<sub>ver</sub><sup>2</sup></br>
-
+F<sub>total</sub> = square_root(F<sub>hor</sub><sup>2</sup> + F<sub>ver</sub><sup>2</sup>)</br>
+\[
+  F_{total} = \sqrt{F_{hor}^2 + F_{ver}^2}
+\]
 
 
 
